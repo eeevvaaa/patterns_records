@@ -3,6 +3,8 @@ import 'dart:convert';
 class Document {
   final Map<String, Object?> _json;
   Document() : _json = jsonDecode(documentJson);
+
+  // TODO: add a new getter method and return a metadata record
 }
 
 // mocking incoming JSON data
