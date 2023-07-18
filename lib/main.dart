@@ -65,6 +65,7 @@ class BlockWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     TextStyle? textStyle;
+    // TODO: convert to switch expression
     switch (block.type) {
       case 'h1':
         textStyle = Theme.of(context).textTheme.displayMedium;
