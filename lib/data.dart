@@ -27,6 +27,7 @@ class Document {
   }
 }
 
+// TODO: seal the Block class from exhaustive switching
 class Block {
   final String type;
   final String text;
