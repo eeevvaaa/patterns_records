@@ -28,6 +28,7 @@ class DocumentScreen extends StatelessWidget {
     super.key,
   });
 
+  // TODO: refactor the build method to call metadata and use it to initialize a pattern variable declaraion.
   @override
   Widget build(BuildContext context) {
     final metadataRecord = document.metadata;
