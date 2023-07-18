@@ -3,16 +3,14 @@ import 'dart:convert';
 class Document {
   final Map<String, Object?> _json;
   Document() : _json = jsonDecode(documentJson);
-<<<<<<< Updated upstream
-=======
 
+  // TODO: modify metadata to read values from the mock JSON
   (String, {DateTime modified}) get metadata {
     const title = 'My Document';
     final now = DateTime.now();
 
     return (title, modified: now);
   }
->>>>>>> Stashed changes
 }
 
 // mocking incoming JSON data
