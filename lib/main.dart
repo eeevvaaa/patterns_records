@@ -39,6 +39,7 @@ class DocumentScreen extends StatelessWidget {
       ),
       body: Column(
         children: [
+          // TODO: display date in relative dates
           Text('Last modified: $modified'),
           Expanded(
             child: ListView.builder(
